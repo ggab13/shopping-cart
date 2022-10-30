@@ -16,7 +16,7 @@ function App() {
                 <div className="container">
                     <Header />
                     <Routes>
-                        <Route exact path="/shopping-cart" element={<Home />} />
+                        <Route exact path="/" element={<Home />} />
                         <Route path="/products" element={<Products />} />
                     </Routes>
                     <Circles />
