@@ -2,7 +2,7 @@
     "homepage": "https://ggab13.github.io/shopping-cart",
     "name": "shopping-cart",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "@mui/material": "^5.10.10",
         "@testing-library/jest-dom": "^5.16.5",
