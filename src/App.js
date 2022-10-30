@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import styles from './assets/styles/App.css';
+import Circles from './components/Circles';
+import Footer from './components/Footer';
+import { Route, Routes } from 'react-router-dom';
+import CartProvider from './context/CartContext';
 
+// Majd az App ból adjam le props-ként az albumokat a Cartnak és a Productsnak ? Talán úgy könyebb
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App ">
+            <CartProvider>
+                <div className="container">
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/products" element={<Products />} />
+                    </Routes>
+                    <Circles />
+                </div>
+                <Footer></Footer>
+            </CartProvider>
+        </div>
+    );
 }
 
 export default App;
