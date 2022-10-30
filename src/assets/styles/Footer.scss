@@ -1,0 +1,22 @@
+footer {
+    height: 2.5rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
+    background-color: black;
+
+    a {
+        text-decoration: none;
+        color: #28a75d;
+    }
+    a:hover {
+        opacity: 0.6;
+    }
+    .github {
+        color: #28a75d;
+    }
+}

@@ -1,0 +1,47 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 20rem;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+
+    img {
+        width: 125px;
+        padding: 0.2rem;
+        height: 125px;
+        border: 2px solid black;
+    }
+    p {
+        padding: 0rem 1rem;
+    }
+
+    .box1 {
+        flex: 3;
+        align-items: flex-start;
+        font-size: 0.8rem;
+    }
+    .box2 {
+        flex: 1;
+        font-size: 0.9rem;
+    }
+    .delete-item {
+        background-color: #0d2b47;
+        color: white;
+        height: 2rem;
+        width: 2rem;
+        margin: 0.3rem;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        border: none;
+    }
+    .delete-item:hover {
+        opacity: 0.7;
+    }
+}
