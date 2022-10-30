@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ggab13.github.io/shopping-cart/static/css/main.24d12971.css",
+    "main.js": "/ggab13.github.io/shopping-cart/static/js/main.2ff254ee.js",
+    "static/media/guy.png": "/ggab13.github.io/shopping-cart/static/media/guy.bc35db9b4973857e1e9a.png",
+    "static/media/logo.svg": "/ggab13.github.io/shopping-cart/static/media/logo.10ea6ae4da1d77270e657444cdb90782.svg",
+    "index.html": "/ggab13.github.io/shopping-cart/index.html",
+    "main.24d12971.css.map": "/ggab13.github.io/shopping-cart/static/css/main.24d12971.css.map",
+    "main.2ff254ee.js.map": "/ggab13.github.io/shopping-cart/static/js/main.2ff254ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24d12971.css",
+    "static/js/main.2ff254ee.js"
+  ]
+}
