@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import CartProvider from './context/CartContext';
 
-// Majd az App ból adjam le props-ként az albumokat a Cartnak és a Productsnak ? Talán úgy könyebb
 function App() {
     return (
         <div className="App ">
