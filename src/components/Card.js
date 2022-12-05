@@ -8,10 +8,6 @@ function Card({ id, src, title, price }) {
     const cart = useContext(CartContext);
     const productQuantity = cart.getProductQuantity(id);
 
-    console.log('BOLT');
-    console.log(cart.items);
-    console.log('BOLT');
-
     return (
         <div className="album-card">
             <img src={src}></img>
