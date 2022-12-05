@@ -4,7 +4,6 @@ import styles from '../assets/styles/Products.scss';
 import { FaSearchDollar } from 'react-icons/fa';
 import uuid from 'react-uuid';
 
-// Majd az App ból adjam le props-ként az albumokat a Cartnak és a Productsnak ? Talán úgy könyebb
 function Products() {
     // Spotify credentials
     const clientID = '857bbc0aac4d4ed0a09e8c8a73900cf5';
